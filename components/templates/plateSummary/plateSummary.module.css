@@ -1,0 +1,56 @@
+.plateSummaryMainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background-light-purple-color);
+  position: relative;
+}
+
+.mainPageContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0 14rem 0;
+  width: 100%;
+}
+
+.plateContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  background-color: var(--background-white-color);
+}
+
+.progressBarSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--container-padding-left) 1.5rem var(--container-padding-left);
+  background-color: var(--background-white-color);
+}
+
+.progressBarList {
+  display: flex;
+  flex-direction: row;
+}
+
+.progressBarTitle {
+  color: var(--text-dark-grey-color);
+  font-weight: 500;
+  font-size: 0.625rem;
+  margin-bottom: 0.75rem;
+}
+
+.plateMainSection {
+  padding: 2rem var(--container-padding-right) 0 var(--container-padding-left);
+  background-color: var(--background-light-purple-color);
+  border-top: 1px solid var(--border-lightest-purple-color);
+}
+
+.plateSectionTitle {
+  display: block;
+  color: var(--text-dark-grey-color);
+  font-size: 1rem;
+  font-weight: var(--font-weight-600);
+  margin-bottom: 1rem;
+}

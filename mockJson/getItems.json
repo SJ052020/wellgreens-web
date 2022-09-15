@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "name": "Most Popular",
+            "id": 1,
+            "items": [
+                {
+                    "name": "orange",
+                    "imageUrl": "imageUrl",
+                    "description": "1 medium",
+                    "imageAltUrlText": "nice orange",
+                    "nutritionalInfo": {
+                        "calories": "62",
+                        "carbs": "55",
+                        "fat": "55",
+                        "protein": "43"
+                    }
+                },
+                {
+                    "name": "blood orange",
+                    "imageUrl": "imageUrl",
+                    "imageAltUrlText": "nice orange",
+                    "description": "1 medium",
+                    "nutritionalInfo": {
+                        "calories": "62",
+                        "carbs": "55.1",
+                        "fat": "55",
+                        "protein": "43"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Proteins",
+            "id": 7,
+            "items": [
+                {
+                    "name": "almonds",
+                    "imageUrl": "imageUrl",
+                    "imageAltUrlText": "nice orange",
+                    "description": "100 gms",
+                    "nutritionalInfo": {
+                        "calories": "62",
+                        "carbs": "55.8",
+                        "fat": "55",
+                        "protein": "43"
+                    }
+                }
+                ]
+            }
+        ]
+    }

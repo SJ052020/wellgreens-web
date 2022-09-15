@@ -1,0 +1,26 @@
+.plat_section {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0px;
+  height: 13rem !important;
+  position: relative;
+}
+
+.plate_icon {
+  height: 100%;
+}
+
+.itemImgSection {
+  position: absolute;
+  height: 100%;
+  width: 13.125rem;
+}
+
+.itemImgSection > div {
+  display: inline-block;
+  width: 5.125rem !important;
+  height: auto !important;
+  transition: all 0.5ms;
+  transform: scale(0.8);
+  position: absolute;
+}

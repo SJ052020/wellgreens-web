@@ -1,0 +1,31 @@
+.login_wrapper {
+}
+.pageContainer {
+  display: block;
+  padding: 3.5rem var(--container-padding) 1rem;
+}
+.login_title {
+  color: var(--text-dark-grey-color);
+  font-weight: var(--font-weight-600);
+  font-size: 1.8rem;
+  color: var(--text-dark-grey-color);
+  margin: 10px 0 10px 0;
+}
+.tabsSec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.tabBtn {
+  width: 48%;
+  color: var(--text-dark-grey-color);
+  border: none;
+  text-align: center;
+  background: none;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.activeTab {
+  border-bottom: 2px solid var(--primary-purple-color);
+}

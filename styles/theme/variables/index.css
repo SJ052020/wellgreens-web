@@ -1,0 +1,30 @@
+:root {
+  --primary-purple-color: #8338ec;
+  --secondary-orange-color: #fb5607;
+
+  --text-white-color: #fff;
+  --text-dark-grey-color: #333d47;
+  --text-light-grey-color: #858b91;
+  --text-black-color: #000;
+  --text-blue-color: #3a86ff;
+  --text-light-purple-color: #e6d7fb;
+  --text-little-dark-purple-color: #b588f4;
+  --text-green-color: #54c174;
+
+  --background-white-color: #fff;
+  --background-light-purple-color: #fdfbff;
+  --background-grey-color: #f7f7f8;
+  --background-blue-color: #3a86ff;
+  --background-lightest-blue-color: #619eff;
+  --light-bg-color: #f4f0f9;
+
+  --border-white-color: #fff;
+  --border-black-color: #000;
+  --border-lightest-purple-color: #f4f0f9;
+
+  --container-padding-left: 1.75rem;
+  --container-padding-right: 1.75rem;
+  --container-padding: 1.75rem;
+
+  --font-weight-600: 600;
+}

@@ -1,0 +1,57 @@
+.homeContainer {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--primary-purple-color);
+  background: linear-gradient(
+    180deg,
+    var(--primary-purple-color) 22%,
+    var(--background-light-purple-color) 22%
+  );
+  padding: 1.25rem 0 5.625rem;
+}
+
+.goalSection {
+  display: flex;
+  flex-direction: column;
+}
+.goalCards {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 1.5rem var(--container-padding-left);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.goalCards::-webkit-scrollbar {
+  display: none;
+}
+
+.goalTitle {
+  margin-bottom: 1.125rem;
+  font-size: 1.375rem;
+  font-weight: var(--font-weight-600);
+  color: var(--text-dark-grey-color);
+  padding: 0 0 0 var(--container-padding-left);
+}
+
+.titleTextSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 var(--container-padding-left);
+}
+
+.titleText {
+  font-size: 1.625rem;
+  font-weight: var(--font-weight-600);
+  color: var(--text-white-color);
+  margin-bottom: 0.5rem;
+}
+
+.subtitleText {
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-600);
+  color: var(--text-light-purple-color);
+}

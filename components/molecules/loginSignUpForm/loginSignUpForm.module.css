@@ -1,0 +1,110 @@
+.form_sec {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.emailInput {
+  outline: none;
+  border: none;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.emailInputWrapper {
+  background: var(--text-white-color);
+  border: 1px solid var(--light-bg-color);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.passwordInputWrapper {
+  background: var(--text-white-color);
+  border: 1px solid var(--light-bg-color);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.passwordInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.passwordInput + .errorMsgStyle {
+  bottom: -40px;
+}
+
+.forgetPassword_wrap {
+  margin: 1rem 0;
+}
+.forgetPassword_wrap p {
+  color: var(--text-light-grey-color);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.reset_text {
+  color: #8338ec;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.loginbtn {
+  background: #8338ec;
+  border-radius: 60px;
+  padding: 1.2rem;
+  font-size: 1rem;
+  color: var(--text-white-color);
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.orSection {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #efeff0;
+  line-height: 0;
+  margin: 20px 0 20px 0;
+}
+
+.orSection span {
+  color: var(--text-dark-grey-color);
+}
+.socialbtn {
+  font-weight: var(--font-weight-600);
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.socialBlue {
+  background: #415893;
+}
+.socialLightBlue {
+  background: #5383ec;
+}
+.socialBlack {
+  background: #000000;
+  border: 1px solid var(----border-lightest-purple-color);
+  border-radius: 8px;
+  padding: 20px;
+}
+.errorMsgPass{
+  color: rgb(221, 93, 93);
+  font-size: 0.75rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: -1.6rem;
+  left: 0.25rem;
+}

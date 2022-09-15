@@ -1,0 +1,52 @@
+.rewardsMainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 5.625rem 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.dataContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.25rem var(--container-padding-right) 0
+    var(--container-padding-left);
+  background-color: var(--background-light-purple-color);
+}
+
+.subTitletext {
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-600);
+  color: var(--text-dark-grey-color);
+  margin-bottom: 2rem;
+}
+
+.medalSection {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  position: relative;
+  border-bottom: 2px solid var(--border-lightest-purple-color);
+}
+
+.medalCard {
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.challengeText {
+  margin: 0.5rem 0 0.25rem 0;
+  font-weight: 600;
+  font-size: 0.625rem;
+  color: var(--text-dark-grey-color);
+}
+
+.yearText {
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: var(--text-light-grey-color);
+}

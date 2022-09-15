@@ -1,0 +1,86 @@
+.checkoutMainContainer {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  padding: 0 0 6.25rem 0;
+  background-color: var(--background-light-purple-color);
+}
+.checkoutSecContainer {
+  display: block;
+  padding: 3.5rem 0 0 0;
+}
+
+.mapSec {
+  display: block;
+  padding: 1rem var(--container-padding);
+  background-color: var(--background-white-color);
+}
+
+.locationDetailsSec {
+  display: block;
+  padding: 1rem var(--container-padding);
+  background-color: var(--background-white-color);
+}
+
+.deliverySec {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem;
+  background-color: var(--background-white-color);
+  border: 1px solid var(--primary-purple-color);
+  box-shadow: 0px 4px 8px #f5f5f5;
+  border-radius: 0.5rem;
+}
+
+.orderSubTitle {
+  font-size: 0.75rem;
+  color: var(--text-light-grey-color);
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+.orderDetailsSec {
+  background-color: var(--background-light-purple-color);
+  border-top: 1px solid var(--border-lightest-purple-color);
+  padding: var(--container-padding);
+}
+.balenceTitle {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.orderTitle {
+  font-size: 1rem;
+  color: var(--text-light-grey-color);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.canteenTitle {
+  color: var(--text-dark-grey-color);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.deliveryText {
+  color: var(--text-dark-grey-color);
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.etaText {
+  font-size: 0.75rem;
+  color: var(--text-green-color);
+}
+
+.placeOrderSec {
+  padding: 0 10px;
+  border-top: 1px solid var(--border-lightest-purple-color);
+}
+.placeOrderStyle {
+  background: var(--primary-purple-color);
+  border-radius: 60px;
+  border: none;
+  color: var(--text-white-color);
+  padding: 1rem;
+  font-size: 1rem;
+  width: 100%;
+}

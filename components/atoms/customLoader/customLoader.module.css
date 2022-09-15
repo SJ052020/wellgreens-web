@@ -1,0 +1,37 @@
+.mainOuter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+.ringInner {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.ringInner:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid var(--primary-purple-color);
+  border-color: var(--primary-purple-color) transparent
+    var(--primary-purple-color) transparent;
+  animation: ringAnimation 1.2s linear infinite;
+}
+@keyframes ringAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

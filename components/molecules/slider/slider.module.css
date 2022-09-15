@@ -1,0 +1,24 @@
+.items {
+  width: 100%;
+  display: flex;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+
+}
+.items::-webkit-scrollbar {
+  display: none;
+}
+.item {
+  font-size: 13px;
+  margin: 10px;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.item:active:hover{
+    border-bottom: 1px solid var(--primary-purple-color);
+    color: var(--text-dark-grey-color);
+    margin-bottom: 10px;
+}

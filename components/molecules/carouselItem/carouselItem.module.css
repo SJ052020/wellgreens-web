@@ -1,0 +1,58 @@
+.carouselContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--background-white-color);
+  border-radius: 1rem;
+  margin: 2rem 1.75rem 2rem;
+  padding: 1.75rem;
+  -webkit-box-shadow: -4px 20px 20px 3px rgb(0 0 0 / 6%);
+  -moz-box-shadow: -4px 20px 20px 3px rgb(0 0 0 / 6%);
+  box-shadow: -4px 20px 20px 3px rgb(0 0 0 / 6%);
+}
+.textBtnSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.orangeText {
+  font-size: 0.625rem;
+  font-weight: var(--font-weight-600);
+  color: var(--secondary-orange-color);
+  margin-bottom: 0.3rem;
+}
+.mainText {
+  font-size: 1rem;
+  font-weight: var(--font-weight-600);
+  color: var(--text-dark-grey-color);
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.joinBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: var(--secondary-orange-color);
+  color: var(--text-white-color);
+  padding: 0.5rem 1.8rem 0.5rem 1rem;
+  border-radius: 8px;
+  z-index: 1;
+  position: relative;
+  font-size: 0.75rem;
+}
+.joinBtn:after {
+  content: "";
+  position: absolute;
+  right: 0.875rem;
+  top: 35%;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid var(--background-white-color);
+  border-radius: 40%;
+}
+.rightImg {
+  width: 7.5rem !important;
+  object-fit: contain;
+}

@@ -1,0 +1,41 @@
+{
+    "categories": [
+        {
+            "name": "Most Popular",
+             "id": 1
+        },
+        {
+            "name": "Fruits",
+             "id": 2
+        },
+        {
+            "name": "Vegetables",
+             "id": 3
+        },
+        {
+            "name": "Grains",
+             "id": 4
+        },
+        {
+            "name": "Smoothies",
+             "id": 5
+        },
+        {
+            "name": "Soups",
+             "id": 6
+        },
+           {
+            "name": "Proteins",
+             "id": 7
+        },
+        {
+            "name": "Fats",
+             "id": 8
+        },
+        {
+            "name": "Carbs",
+             "id": 9
+        }
+
+    ]
+}
