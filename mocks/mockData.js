@@ -46,16 +46,16 @@ export const carouselData = [
 
 export const compltedOrdersData = [
   {
+    blackText: "The Bombay Canteen",
+    greyPrimaryText: "Thursday, Aug 25",
+    greyPriceText: "₹262.78",
+    greySecondaryText: "Eggs Kejriwal Toast",
+  },
+  {
     blackText: "Fresh",
     greyPrimaryText: "Wednesday, Aug 24",
     greyPriceText: "₹199.99",
     greySecondaryText: "Superfood Smoothie",
-  },
-  {
-    blackText: "The Bombay Canteen",
-    greyPrimaryText: "Thursday, Aug 25",
-    greyPriceText: "₹231.39",
-    greySecondaryText: "Eggs Kejriwal Toast",
   },
   {
     blackText: "Healthy Ninja",
@@ -98,7 +98,47 @@ export const compltedOrdersData = [
 export const rewardsMedalData = [
   {
     imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
+    challengeMonth: "January Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "Perfect Week Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "Feburary Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "March Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "April Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "Super Charger Week Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "May Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "June Challenge",
+    year: "2022",
+  },
+  {
+    imgUrl: medalIcon,
+    challengeMonth: "July Challenge",
     year: "2022",
   },
   {
@@ -106,46 +146,7 @@ export const rewardsMedalData = [
     challengeMonth: "August Challenge",
     year: "2022",
   },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
-  {
-    imgUrl: medalIcon,
-    challengeMonth: "August Challenge",
-    year: "2022",
-  },
+    
 ];
 
 export const plateImgValues = [
