@@ -123,7 +123,7 @@ export const rewardsMedalData = [
   },
   {
     imgUrl: medalIcon,
-    challengeMonth: "Super Charger Week Challenge",
+    challengeMonth: "Super Charger Challenge",
     year: "2022",
   },
   {
@@ -209,8 +209,7 @@ export const orderDetailsData = [
     rightIcon: rightArrow,
   },
   {
-    blackText: "1640 Riverside Drive",
-    greyText: "Hill Valley, CA 12345",
+    blackText: "(+91)9861430245",
     leftIcon: callerIcon,
     rightIcon: rightArrow,
   },

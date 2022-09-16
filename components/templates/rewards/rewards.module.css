@@ -42,6 +42,7 @@
   margin: 0.5rem 0 0.25rem 0;
   font-weight: 600;
   font-size: 0.625rem;
+  text-align: center;
   color: var(--text-dark-grey-color);
 }
 
